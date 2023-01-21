@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Night/Day Mode Toggle</title>
+  <style>
+      body { text-align:center; font-family:sans-serif; }
+
+      main { margin-top:70px; }
+
+      body, div{ transition:.5s ease; }
+
+      .night-toggle{ cursor:pointer; }
+
+      .moon { box-shadow:-8px 0px 0px 1px #4e4e4e; }
+
+      .sun { background:#fdd462; }
+
+
+      #toggle { width:26px; height:26px; border-radius:50%;}
+
+      .night-toggle {
+        width: 33px;
+        height: 33px;
+        right: 20px;
+        top: 20px;
+        position: absolute;
+      }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="night-toggle" onClick="switchMode()">
+    <div id="toggle" class="moon"></div>
+  </div>
+
+  <main>
+    <div>
+      <h1>Night/Day Mode Toggle</h1>
+      <p>Click on the moon in the upper-right corner to change to night mode,</p>
+      <p>Click again on the sun to change back to day mode.</p>
+    </div>
+  </main>
+
+  <script defer>
+    function switchMode(){
+      let moon = document.getElementById ("toggle");
+      if(moon.className=="moon"){
+          moon.className="sun";
+          document.body.style.backgroundColor = "#141D26";
+          document.body.style.color = "#fff";
+        }
+      else {
+        moon.className ="moon";
+        document.body.style.backgroundColor = "#fff";
+        document.body.style.color = "#000";
+      }
+    }
+  </script>
+</body>
+</html>

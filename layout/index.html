@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Layout Design</title>
+    <style>
+        body {
+            min-height: 100vh;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: .3fr 1fr .15fr;
+            font-family: sans-serif;
+            font-size: larger;
+        }
+        header, aside, main, footer{
+            border-radius: 10px;
+            display: grid;
+            place-items: center;
+            text-align: center;
+        }
+        header, footer { background-color: #7030A0; }
+        main { background-color: #E29CE4; }
+        aside { background-color: #CA47CD; }
+        header, footer { grid-column: 1/-1; }
+    </style>
+</head>
+<body>
+    <header>Header gives information about content</header>
+    <aside>Aside tag specifies navigation links, advertisments, etc.</aside>
+    <main>Main tag specifies the main content of a document</main>
+    <aside>Aside tag specifies navigation links, advertisments, etc.</aside>
+    <footer>Footer specifies copyright & contact information</footer>
+</body>
+</html>

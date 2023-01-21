@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animated Page Loader</title>
+    <style>
+        body {
+            height: 100vh;
+            background: #131313;
+            display: grid;
+            place-items: center;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        h1{ position:fixed; top:0; }
+
+        .loader {
+            border: 16px solid #f1f1f1;
+            border-radius: 50%;
+            border-top: 16px solid #03bb78;
+            border-bottom: 16px solid #03bb78;
+            width: 120px;
+            height: 120px;
+            box-shadow: 0 0 100px grey;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
+
+        @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Animated Page Loader</h1>
+
+    <div class="loader"></div>
+
+</body>
+</html>
