@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Animated Button</title>
+<style>
+  *{ color: #f7f7f7;}
+
+  body {
+    height: 100vh;
+    background: #131313;
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+  }
+
+  h1{ position:fixed; top:0; }
+
+  button {
+    outline: none;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 40px;
+    font-size: 24px;
+    background: #04AA6D;
+    border-radius: 15px;
+    box-shadow: 0 9px rgba(255,255,255,0.1);
+    transform: scale(2.5);
+    transition: .3s ease;
+  }
+
+  button:hover {filter: brightness(1.1);}
+
+  button:active {
+    background: cyan;
+    box-shadow: 0 0;
+    transform: scale(2.4) translateY(4px);
+  }
+</style>
+</head>
+<body>
+  <h1>Animated Button - Pure CSS</h1>
+  <button>CLICK ME</button>
+</body>
+</html>

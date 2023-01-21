@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Bio</title>
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+            background: #1E1E1E;
+            color:white;
+            font-family: sans-serif;
+        }
+        form > * {
+            border: 1px solid #626262;
+            border-collapse: collapse;
+            padding: 20px;
+        }
+        button {
+            margin: 20px 0 20px 190px;
+        }
+        label { margin-right: 10px; }
+    </style>
+</head>
+<body>
+
+    <h1>STUDENT BIO</h1>
+
+    <form>
+        <div>
+            <label>Name: </label>
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="email" placeholder="Enter your Email">
+        </div>
+        <div>
+            <label>Reg no: </label>
+            <input type="text" min="1" placeholder="Reg No">
+        </div>
+        <div>
+            <label>DOB: </label>
+            <input type="number" min="1" placeholder="Date of Birth">
+        </div>
+        <div>
+            <label>Gender: </label>
+            <span>Male </span>
+            <input name="gender" value="male" type="radio">
+            <span>Female </span>
+            <input name="gender" value="female" type="radio">
+        </div>
+        <div>
+            <label>Department: </label>
+            <select>
+                    <option disabled value>Select an option</option>
+                    <option>Bsc Computer Science</option>
+                    <option>Bsc Information Technology</option>
+                    <option>Bsc Cyber Security</option>
+                    <option>Bsc Computer Technology</option>
+                    <option>Other</option>
+            </select>
+        </div>
+        <div>
+            <label>Familiar with: </label>
+            <ul style="list-style: none;">
+                <li> <input type="checkbox">C </li>
+                <li> <input type="checkbox">C++ </li>
+                <li> <input type="checkbox">Java </li>
+                <li> <input type="checkbox">Python </li>
+                <li> <input type="checkbox">HTML </li>
+                <li> <input type="checkbox">CSS </li>
+                <li> <input type="checkbox">Javascript </li>
+            </ul>
+        </div>
+        <div>
+            <label>Feedback: </label>
+            <textarea cols="40" rows="5"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
