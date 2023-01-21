@@ -1,16 +1,16 @@
-| Program name | Source Code | Live preview link |
-| :----- | :-----: | :-----: |
-| Text-formatting | [link](https://github.com/easc-clone/web/blob/main/text-formatting/index.html) |  [Live link](https://easc-clone.github.io/web/text-formatting/)  |
-| Table | [link](https://github.com/easc-clone/web/blob/main/table/index.html) |  [Live link](https://easc-clone.github.io/web/table/)  |
-| Form | [link](https://github.com/easc-clone/web/blob/main/form/index.html) |  [Live link](https://easc-clone.github.io/web/form/)  |
-| Iframe | [link](https://github.com/easc-clone/web/blob/main/iframe/index.html) |  [Live link](https://easc-clone.github.io/web/iframe/)  |
-| Image Gallery | [link](https://github.com/easc-clone/web/blob/main/flexGallery/index.html) |  [Live link](https://easc-clone.github.io/web/flexGallery/)  |
-| Menu section | [link](https://github.com/easc-clone/web/blob/main/menu/index.html) |  [Live link](https://easc-clone.github.io/web/menu/)  |
-| Menu icon animation | [link](https://github.com/easc-clone/web/blob/main-animation/text-formatting/index.html) |  [Live link](https://easc-clone.github.io/web/menu-animation/)  |
-| Clickable button | [link](https://github.com/easc-clone/web/blob/main/click-btn/index.html) |  [Live link](https://easc-clone.github.io/web/click-btn/)  |
-| Animated page loader | [link](https://github.com/easc-clone/web/blob/main/loader/index.html) |  [Live link](https://easc-clone.github.io/web/loader/)  |
-| Prototype of Page layout | [link](https://github.com/easc-clone/web/blob/main/layout/index.html) |  [Live link](https://easc-clone.github.io/web/layout/)  |
-| Night/Day Mode toggle | [link](https://github.com/easc-clone/web/blob/main/toggle/index.html) | [Live link](https://easc-clone.github.io/web/toggle/) |
-| Documentation Model | [link](https://github.com/easc-clone/web/blob/main/documentation/index.html) |  [Live link](https://easc-clone.github.io/web/documentation/)  |
-| Automated Image Slideshow | [link](https://github.com/easc-clone/web/blob/main/slideshow/index.html) |  [Live link](https://easc-clone.github.io/web/slideshow/)  |
-| EASC Web Page | [link](https://github.com/easc-clone/web/blob/main/easc-page/index.html) | [Live link](https://easc-clone.github.io/web/easc-page/)  |
+| S.No | Program name | Source Code | Live preview link |
+| :----- | :----- | :-----: | :-----: |
+| 1. | Text-formatting | [Click here](https://github.com/easc-clone/web-practicals/blob/main/text-formatting/index.html) |  [Click here](https://easc-clone.github.io/web-practicals/text-formatting/)  |
+| 2. | Table | [Click here](https://github.com/easc-clone/web-practicals/blob/main/table/index.html) |  [Click here](https://easc-clone.github.io/web-practicals/table/)  |
+| 3. | Form | [Click here](https://github.com/easc-clone/web-practicals/blob/main/form/index.html) |  [Click here](https://easc-clone.github.io/web-practicals/form/)  |
+| 4. | Iframe | [Click here](https://github.com/easc-clone/web-practicals/blob/main/iframe/index.html) |  [Click here](https://easc-clone.github.io/web-practicals/iframe/)  |
+| 5. | Image Gallery | [Click here](https://github.com/easc-clone/web-practicals/blob/main/flexGallery/index.html) |  [Click here](https://easc-clone.github.io/web-practicals/flexGallery/)  |
+| 6. | Menu section | [Click here](https://github.com/easc-clone/web-practicals/blob/main/menu/index.html) |  [Click here](https://easc-clone.github.io/web-practicals/menu/)  |
+| 7. | Menu icon animation | [Click here](https://github.com/easc-clone/web-practicals/blob/main-animation/text-formatting/index.html) |  [Click here](https://easc-clone.github.io/web-practicals/menu-animation/)  |
+| 8. | Clickable button | [Click here](https://github.com/easc-clone/web-practicals/blob/main/click-btn/index.html) |  [Click here](https://easc-clone.github.io/web-practicals/click-btn/)  |
+| 9. | Animated page loader | [Click here](https://github.com/easc-clone/web-practicals/blob/main/loader/index.html) |  [Click here](https://easc-clone.github.io/web-practicals/loader/)  |
+| 10. | Prototype of Page layout | [Click here](https://github.com/easc-clone/web-practicals/blob/main/layout/index.html) |  [Click here](https://easc-clone.github.io/web-practicals/layout/)  |
+| 11. | Night/Day Mode toggle | [Click here](https://github.com/easc-clone/web-practicals/blob/main/toggle/index.html) | [Click here](https://easc-clone.github.io/web-practicals/toggle/) |
+| 12. | Documentation Model | [Click here](https://github.com/easc-clone/web-practicals/blob/main/documentation/index.html) |  [Click here](https://easc-clone.github.io/web-practicals/documentation/)  |
+| 13. | Automated Image Slideshow | [Click here](https://github.com/easc-clone/web-practicals/blob/main/slideshow/index.html) |  [Click here](https://easc-clone.github.io/web-practicals/slideshow/)  |
+| 14. | EASC Web Page | [Click here](https://github.com/easc-clone/web-practicals/blob/main/easc-page/index.html) | [Click here](https://easc-clone.github.io/web-practicals/easc-page/)  |
