@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sum of Two Numbers</title>
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+            background: #131313;
+            color: white;
+            font-family: sans-serif;
+        }
+        
+        form { margin-top:100px; }
+
+        div, p {
+            border: 1px solid #626262;
+            padding: 20px;
+        }
+
+        label { margin-right:10px; }
+
+        input, span { float:right; }
+
+        button{ padding:10px; width:100%; }
+    </style>
+</head>
+<body>
+    <h1>Calculating Sum of Two Numbers</h1>
+
+    <form>
+        <div>
+            <label>First Number: </label>
+            <input type="number">
+        </div>
+                <div>
+            <label>Second Number: </label>
+            <input type="number">
+        </div>
+        <p>Result: <span></span></p>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        const form = document.querySelector('form'), 
+              result = document.querySelector('span');
+
+        form.addEventListener('submit', (e)=>{
+            e.preventDefault();
+
+            let num1 = e.target[0].value, 
+                num2 = e.target[1].value;
+
+            result.innerText = `${Number(num1) + Number(num2)}`
+        })
+    </script>
+</body>
+</html>
