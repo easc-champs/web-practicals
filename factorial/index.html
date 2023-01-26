@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Factorial Calculator</title>
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+            background: #131313;
+            color: white;
+            font-family: sans-serif;
+        }
+        
+        form { margin-top:100px; }
+
+        div, p {
+            border: 1px solid #626262;
+            padding: 20px;
+        }
+
+        label { margin-right:10px; }
+
+        input, span { float:right; }
+
+        button{ padding:10px; width:100%; }
+    </style>
+</head>
+<body>
+    <h1>Factorial Calculator</h1>
+
+    <form>
+        <div>
+            <label>Number: </label>
+            <input type="number">
+        </div>
+        <p>Result: &nbsp;<span></span></p>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        const form = document.querySelector('form'), 
+              result = document.querySelector('span');
+
+        form.addEventListener('submit', (e)=>{
+            e.preventDefault();
+
+            let number = e.target[0].value;
+
+            if (number < 0) {
+                result.innerHTML = 'Error! Factorial for negative number does not exist';
+            }
+
+            else if (number === 0) {
+                result.innerHTML = `The factorial of 0 is 1`;
+            }
+
+            else {
+                let fact = 1;
+                for (i = 1; i <= number; i++) { fact *= i; }
+                result.innerHTML = `The factorial of <u>${number}</u> is <u>${fact}</u>`;
+            }
+        })
+    </script>
+</body>
+</html>

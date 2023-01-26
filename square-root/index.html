@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Square Root Calculator</title>
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+            background: #131313;
+            color: white;
+            font-family: sans-serif;
+        }
+        
+        form { margin-top:100px; }
+
+        div, p {
+            border: 1px solid #626262;
+            padding: 20px;
+        }
+
+        label { margin-right:10px; }
+
+        input, span { float:right; }
+
+        button{ padding:10px; width:100%; }
+    </style>
+</head>
+<body>
+    <h1>Square Root Calculator</h1>
+
+    <form>
+        <div>
+            <label>Number: </label>
+            <input type="number">
+        </div>
+        <p>Square Root : <span></span></p>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        const form = document.querySelector('form'), 
+              result = document.querySelector('span');
+
+        form.addEventListener('submit', (e)=>{
+            e.preventDefault();
+
+            let num1 = e.target[0].value;
+
+            result.innerText = `${Number(num1) * Number(num1)}`
+        })
+    </script>
+</body>
+</html>
