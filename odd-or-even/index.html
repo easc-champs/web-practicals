@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Odd or Even</title>
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+            background: #131313;
+            color: white;
+            font-family: sans-serif;
+        }
+        
+        section { margin-top:100px; }
+
+        div, p {
+            border: 1px solid #626262;
+            padding: 20px;
+        }
+
+        label { margin-right:10px; }
+
+        input, span { float:right; }
+
+        button{ padding:10px; width:100%; }
+    </style>
+</head>
+<body>
+    <h1>Odd or Even</h1>
+
+    <section>
+        <div>
+            <label>First Number: </label>
+            <input type="number">
+        </div>
+        <p>Result: <span></span></p>
+        <button onclick="checkOddOrEven()">Submit</button>
+    </section>
+
+    <script>
+
+        function checkOddOrEven(){
+
+            const result = document.querySelector('span'),
+                  number = document.querySelector('input').value;
+
+            if(number % 2 === 0){
+                result.textContent = `${number} is Even Number`;
+            }
+            else if(number % 2 !== 0){
+                result.textContent = `${number} is Odd Number`;
+            }
+            else {
+                result.textContent = "Please enter a valid number";
+            }
+        }
+        
+    </script>
+</body>
+</html>
