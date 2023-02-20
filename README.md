@@ -21,4 +21,7 @@
 | 15. | Factorial Calculator | [click here](https://github.com/easc-clone/web-practicals/blob/main/factorial/index.html) | [click here](https://easc-clone.github.io/web-practicals/factorial/) |
 | 16. | Square Root Calculator | [click here](https://github.com/easc-clone/web-practicals/blob/main/square-root/index.html) | [click here](https://easc-clone.github.io/web-practicals/square-root/) |
 | 17. | Calculating Sum of two | [click here](https://github.com/easc-clone/web-practicals/blob/main/sum-of-two/index.html) | [click here](https://easc-clone.github.io/web-practicals/sum-of-two/) |
+| 18. | Calculating Area of Triangle | [click here](https://github.com/easc-clone/web-practicals/blob/main/calculate-triangle-area/index.html) | [click here](https://easc-clone.github.io/web-practicals/calculate-triangle-area/) |
+| 19. | Find Odd or Even of Given Number | [click here](https://github.com/easc-clone/web-practicals/blob/main/odd-or-even/index.html) | [click here](https://easc-clone.github.io/web-practicals/odd-or-even/) |
+| 20. | Find Greatest Among Three Numbers | [click here](https://github.com/easc-clone/web-practicals/blob/main/greatest-among-three/index.html) | [click here](https://easc-clone.github.io/web-practicals/greatest-among-three/) |
 
